@@ -1,0 +1,135 @@
+/*----------------------contact me-----------------------*/
+/*
+.container {
+  border-radius: 20px;
+  background-color: #dbe9fa;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  box-shadow: 0 0 20px rgb(0, 34, 255), 0 0 30px #0ef, 0 0 40px #0ef;
+  margin: 50px 0 0 0;
+}
+
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+  border-radius: 40px;
+}
+#contactme {
+  padding-top: 90px;
+  margin: 22px;
+  font-family: 'Ubuntu', sans-serif;
+  background: linear-gradient(to right, #000000 50%, #1a1a1a 50%); /* Dark gradient effect */
+  /*color: #ffffff;
+  text-align: center;
+  background-size: 200% 100%; /* Adjust the background size for the gradient effect */
+ /* animation: gradientAnimationContactMe 5s linear infinite;*/ /* Adjust the duration as needed */
+/*}*/
+/*
+.contactme-main {
+  color: #01257D;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  margin-bottom: 15px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(3, 82, 3);
+}
+
+
+.contact-me {
+  width: 100%;
+  height: 29px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 20px #02FEE4, 0 0 30px #02FEE4, 0 0 40px #02FEE4;
+}
+
+.container {
+  border-radius: 1px;
+  background-color: #000;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+}
+
+#contactme {
+  padding-top: 75px;
+  margin: 22px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.contactme-main {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background: #000;
+  color: white;
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: transparent;
+  border: 2px solid #02FEE4;
+  color: #02FEE4;
+  box-shadow: 0 0 10px #02FEE4;
+}
+
+.look{
+  justify-content: center;
+  padding: 100px 30%;
+}
+
+*/
