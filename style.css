@@ -24,7 +24,7 @@
  }
  .logo{
   font-size: 35px;
-  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background: linear-gradient(120deg, #dcf3e4 0%, #f48fd6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -92,7 +92,7 @@ nav {
   }
   /*Intro I am a Front end Web Developer*/
   span {
-    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background: linear-gradient(120deg, #f580d6 0%, #f93dba 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -109,21 +109,21 @@ nav {
     font-weight: bold;
    }
    nav ul li a:hover{
-    color: #d4fc79;
+    color: #96e6a1;
    }
    /*BTN-----------------------------------------------------------------------------------------------------------------------------*/
   .btn:hover{
     transform: scale(1.2);
-    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+    background-image: linear-gradient(120deg,#0a4625 0%, #f1f48f 100%);
   }
   .btn{
     display: inline-block;
     padding: 12px 28px;
-    background-image:linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-image:linear-gradient(120deg,  #0a4625 0%, #f986d6 100%);
     border-radius: 40px;
     box-shadow: 0 0 10px #02FEE4;
     font-size: 16px;
-    color: #1f242d;
+    color: #eaefde;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
@@ -194,7 +194,7 @@ nav {
    /* transform: translateY(-50%);*/
   }
   h1 {
-    background: -webkit-linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background: -webkit-linear-gradient(120deg, #eaf1cd 0%, #96e6a1 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -214,12 +214,12 @@ nav {
     letter-spacing: 2px;
     font-size: 20px;
   }
- .peony{
-    width: 100%;
-    max-width: 700px;
-    margin-top: 50px;
-    margin-left:50%;
 
+ .peony{
+    width: 75%;
+   /* max-width: 700px;*/
+    margin-top: -20px;
+    margin-left:42%;
   }
 
   /*Glowing-------------------------------------------------------
@@ -441,7 +441,8 @@ nav {
     object-fit: cover; 
     animation: glow 2s infinite alternate;
     margin-right: 80px;
-  margin-top: 5%;
+    margin-top: 5%;
+    box-shadow: #02FEE4;
   }
 
   /*------------------------------------------Projects Section-----------------------------------------------------*/
@@ -612,21 +613,22 @@ nav {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+      background-image: linear-gradient(120deg,  #ffaefb 0%, #ef3db9 100%);
       border-radius: 50%;
       font-size: 20px; 
       color: black;
       text-decoration: none;
       transition: background-color 0.3s, transform 0.3s;
       margin-bottom: 20px;
+      box-shadow:  0 0 20px #ffaefb ;
     }
     .social a:hover {
-      background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+      background-image: linear-gradient(120deg,#a0f0c4 0%, #f1f48f 100%);
       transform: scale(1.1);
     }
   /*Smiley------------------------------------------------------------------------------------------------------------------------ */
   :root {
-    --main-part-color: #d4fc79; /* Change this color to change the color of the face parts */
+    --main-part-color: #96e6a1; /* Change this color to change the color of the face parts */
   }
 
  .box{
