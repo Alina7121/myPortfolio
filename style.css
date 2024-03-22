@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
- }
+  font-family: "Labrada", serif;
+}
  
  body{
   background-color: rgb(19, 18, 18); 
@@ -21,6 +21,7 @@
   z-index: 100; 
   min-height: 100vh;
   overflow: hidden;
+ 
  }
  .logo{
   font-size: 35px;
@@ -110,6 +111,11 @@ nav {
    nav ul li a:hover{
     color: #96e6a1;
    }
+    nav ul li a.active{
+      color: #96e6a1;
+    }
+  
+  
    /*BTN-----------------------------------------------------------------------------------------------------------------------------*/
    .btn {
     display: inline-block;
@@ -407,13 +413,14 @@ nav {
 
   }
   .main{    
+    min-height: 100vh;
    margin-top: 5%;
     max-width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'poppins', sans-serif;
+    font-family: "Labrada", serif;
   }
   .about-text h2{
     color: white;
@@ -427,7 +434,7 @@ nav {
     font-size:1.75em;
     margin-bottom: 25px;
     text-transform: capitalize;
-    font-family: 'poppins',sans-serif;
+
   
   }
   .about-text p{
@@ -469,7 +476,7 @@ nav {
   margin-top: 50px;
 
   padding-left: 10%;
-  font-family: 'poppins', sans-serif;
+ 
 }
 
 .skill {
@@ -481,7 +488,7 @@ nav {
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
@@ -532,8 +539,9 @@ nav {
       position: relative;
       padding-top: 100px;
       margin: 22px;
-      font-family: 'poppins', sans-serif;
+     
       overflow: hidden;
+      min-height: 100vh;
     }
     .max-width {
      max-width: 1300px;
@@ -579,7 +587,7 @@ nav {
     .project-description {
       color: rgb(14, 228, 178);
       font-weight: bold;
-      font-family: 'poppins', Times, serif;
+
     }
    .max-width {
       max-width: 1200px;
