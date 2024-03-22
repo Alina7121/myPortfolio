@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'poppins',sans-serif;
+ 
  }
  
  body{
@@ -112,14 +112,10 @@ nav {
     color: #96e6a1;
    }
    /*BTN-----------------------------------------------------------------------------------------------------------------------------*/
-  .btn:hover{
-    transform: scale(1.2);
-    background-image: linear-gradient(120deg,#0a4625 0%, #f1f48f 100%);
-  }
-  .btn{
+   .btn {
     display: inline-block;
     padding: 12px 28px;
-    background-image:linear-gradient(120deg,  #0a4625 0%, #f986d6 100%);
+    background-image: linear-gradient(120deg, #0a4625 0%, #f986d6 100%);
     border-radius: 40px;
     box-shadow: 0 0 10px #02FEE4;
     font-size: 16px;
@@ -129,62 +125,69 @@ nav {
     font-weight: 600;
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay:  1s;
+    animation-delay: 1s;
     cursor: pointer;
-    }
-    @keyframes slideRight {
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(120deg, #0a4625 0%, #f1f48f 100%);
+  }
+  
+  @keyframes slideRight {
     0% {
-       transform: translateX(-100px);
-       opacity: 0;
+      transform: translateX(-100px);
+      opacity: 0;
     }
     100% {
-       transform: translateX(0);
-       opacity: 1;
+      transform: translateX(0);
+      opacity: 1;
     }
-    }
-    @keyframes slideLeft {
+  }
+  
+  @keyframes slideLeft {
     0% {
-       transform: translateX(100px);
-       opacity: 0;
+      transform: translateX(100px);
+      opacity: 0;
     }
     100% {
-       transform: translateX(0);
-       opacity: 1;
+      transform: translateX(0);
+      opacity: 1;
     }
-    }
-    
-    @keyframes slideTop {
+  }
+  
+  @keyframes slideTop {
     0% {
-       transform: translateY(100px);
-       opacity: 0;
+      transform: translateY(100px);
+      opacity: 0;
     }
     100% {
-       transform: translateY(0);
-       opacity: 1;
+      transform: translateY(0);
+      opacity: 1;
     }
-    }
-    
-    @keyframes slideBotton {
+  }
+  
+  @keyframes slideBotton {
     0% {
-       transform: translateY(-100px);
-       opacity: 0;
+      transform: translateY(-100px);
+      opacity: 0;
     }
     100% {
-       transform: translateY(0);
-       opacity: 1;
+      transform: translateY(0);
+      opacity: 1;
     }
-    }
-    @keyframes  zoomIn {
+  }
+  
+  @keyframes zoomIn {
     0% {
-       transform:  scale(0);
-       opacity: 0;
+      transform: scale(0);
+      opacity: 0;
     }
     100% {
-       transform: scale(1);
-       opacity: 1;
+      transform: scale(1);
+      opacity: 1;
     }
-    }
-    
+  }
   
   /*------------------------------------------------------Content------------------------------------------------------------*/
   .left{
@@ -346,7 +349,7 @@ nav {
    
 */
 
-/*----------------------------------------- GLow Section-----------------------------------------------------*/
+/*----------------------------------------- GLow Background Section-----------------------------------------------------*/
   .glow {
  position: relative;
     height: 100vh;
@@ -424,6 +427,7 @@ nav {
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
+    font-family: 'poppins',sans-serif;
   
   }
   .about-text p{
@@ -439,10 +443,24 @@ nav {
     width: 330px;
     border-radius: 50%;
     object-fit: cover; 
-    animation: glow 2s infinite alternate;
     margin-right: 80px;
     margin-top: 5%;
-    box-shadow: #02FEE4;
+    box-shadow: 0 0 20px #ffaefb;
+    transition: background-color 0.3s, transform 0.3s;
+    animation: glow 2s infinite alternate; 
+   
+  }
+  .about img:hover {
+
+    transform: scale(1.1);
+  }
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 20px #ffaefb;
+    }
+    100% {
+      box-shadow: 0 0 40px #ffaefb; /* Change shadow intensity as needed */
+    }
   }
 
   /*------------------------------------------Projects Section-----------------------------------------------------*/
@@ -452,10 +470,9 @@ nav {
       padding-top: 100px;
       margin: 22px;
       font-family: 'Open Sans', sans-serif;
-
       overflow: hidden;
     }
-  
+  /*
     .projects::before {
       content: "";
       position: absolute;
@@ -463,27 +480,16 @@ nav {
       left: 0;
       width: 100%;
       height: 100%;
-    
       opacity: 0.3;
       animation: gradientAnimationProjects 5s linear infinite;
-    }
-  
-    @keyframes gradientAnimationProjects {
-      0% {
-        background-position: 100% 0;
-      }
-      100% {
-        background-position: 0 0;
-      }
-    }
-  
+    }*/
     .max-width {
       max-width: 1300px;
       padding: 0 80px;
       margin: auto;
     }
   
-    .projects-main {
+   .projects-main {
       color: rgb(141, 238, 22);
       font-size: 2rem;
       text-align: center;
@@ -504,11 +510,10 @@ nav {
     }
   
     .project-container {
-      width: calc(30% - 40px);
+     width: calc(30% - 40px);
       margin: 20px;
       padding: 20px;
-    
-      box-shadow: 2px 2px 10px #0668a1;
+      box-shadow: 2px 2px 10px #1b9753d3;
       border-radius: 10px;
       text-align: center;
       transition: 0.3s ease;
@@ -516,28 +521,15 @@ nav {
   
     .project-container:hover,
     .project-container:focus {
-      box-shadow: 2px 2px 30px #0668a1, 0 0 10px #00ff00;
+      box-shadow: 2px 2px 30px #0668a1, 0 0 10px #ffaefb;
       transform: translateY(-0.75em) scale(1.05);
       
-      border: 3px solid #00ff00;
+      border: 3px solid rgb(238, 176, 230);
     }
-  
+ 
     .project-link {
       text-decoration: none;
-    }
-    .project1,
-    .project2,
-    .project3,
-    .project4 {
-      color: white;
-      text-decoration: none;
-      font-size: 1.35rem;
-    }
-  
-    .project-container a {
-      color: #5805b6;
-    }
-  
+    }  
     .project-description {
       color: rgb(14, 228, 178);
       font-weight: bold;
@@ -560,13 +552,6 @@ nav {
       border-radius: 40px;
     }
 
-    .max-width {
-      max-width: 1300px;
-      padding: 0 80px;
-      margin: auto;
-    }
-    
-    
   /*------------------------------------------Footer Section-----------------------------------------------------*/
     footer {
       position: relative;
