@@ -408,23 +408,23 @@ nav {
   }
   .main{    
    margin-top: 5%;
-    max-width: 95%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
   }
   .about-text h2{
     color: white;
-    font: 75px;
-    text-transform: capitalize;
+   font-size: 2em;
     margin-bottom: 20px;
   }
   
   .about-text h5{
     color: white;
     letter-spacing: 2px;
-    font-size: 22px;
+    font-size:1.75em;
     margin-bottom: 25px;
     text-transform: capitalize;
     font-family: 'poppins',sans-serif;
@@ -433,7 +433,7 @@ nav {
   .about-text p{
     color: white;
     line-height: 25px;
-    font-size: 18px;
+    font-size: 1.2em;
     margin-bottom: 45px;
   }
   /*Image------------------------------------------------------------------------------------------------------------------------------*/
@@ -467,9 +467,9 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 50px;
-  padding-top: 100px;
-  padding-left: 10%;
 
+  padding-left: 10%;
+  font-family: 'poppins', sans-serif;
 }
 
 .skill {
@@ -532,17 +532,16 @@ nav {
       position: relative;
       padding-top: 100px;
       margin: 22px;
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'poppins', sans-serif;
       overflow: hidden;
     }
     .max-width {
-      max-width: 1300px;
+     max-width: 1300px;
       padding: 0 80px;
       margin: auto;
     }
   
    .projects-main {
-      color: rgb(141, 238, 22);
       font-size: 2rem;
       text-align: center;
       text-decoration-line: underline;
@@ -576,16 +575,14 @@ nav {
       transform: translateY(-0.75em) scale(1.05);
       border: 3px solid rgb(238, 176, 230);
     }
-    .project-link {
-      text-decoration: none;
-    }  
+
     .project-description {
       color: rgb(14, 228, 178);
       font-weight: bold;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: 'poppins', Times, serif;
     }
-    .max-width {
-      max-width: 1300px;
+   .max-width {
+      max-width: 1200px;
       padding: 0 80px;
       margin: auto;
       border-radius: 40px;
