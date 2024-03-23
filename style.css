@@ -96,6 +96,8 @@ nav {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 1.2em;
   }
   /*nav bar--------------------------------------------------------------------------------------------------------------------------------*/
   nav ul li{
@@ -114,8 +116,8 @@ nav {
     nav ul li a.active{
       color: #96e6a1;
     }
-  
-  
+  /*Menu Icon-----------------------------------------------------------------------------------------------------------------------------*/
+
    /*BTN-----------------------------------------------------------------------------------------------------------------------------*/
    .btn {
     display: inline-block;
@@ -223,7 +225,7 @@ nav {
     letter-spacing: 2px;
     font-size: 20px;
   }
-
+  
  .peony{
     width: 75%;
    /* max-width: 700px;*/
@@ -426,15 +428,12 @@ nav {
    font-size: 2em;
     margin-bottom: 20px;
   }
-  
-  .about-text h5{
+  h5 {
     color: white;
     letter-spacing: 2px;
     font-size:1.75em;
     margin-bottom: 25px;
     text-transform: capitalize;
-
-  
   }
   .about-text p{
     color: white;
