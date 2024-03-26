@@ -472,7 +472,7 @@ nav {
   flex-wrap: wrap;
   justify-content: flex-end;
   margin-top: 50px;
-  padding-left: 10%;
+  padding-left: 15%;
  
 }
 
@@ -522,7 +522,7 @@ nav {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
   100% {
     transform: scale(1);
