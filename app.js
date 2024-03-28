@@ -5,4 +5,3 @@
     loop: true,
    backDelay: () => Math.random() * 200 + 600 // Random delay between 200-600ms
  });
-  

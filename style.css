@@ -121,7 +121,7 @@ nav {
    /*BTN-----------------------------------------------------------------------------------------------------------------------------*/
    .btn {
     display: inline-block;
-    padding: 12px 28px;
+    padding: 10px 28px;
     background-image: linear-gradient(120deg, #0a4625 0%, #f986d6 100%);
     border-radius: 40px;
     box-shadow: 0 0 10px #02FEE4;
@@ -204,12 +204,12 @@ nav {
    /* transform: translateY(-50%);*/
   }
   h1 {
-    background: -webkit-linear-gradient(120deg, #eaf1cd 0%, #96e6a1 100%);
+    background: -webkit-linear-gradient(120deg, #eaf1cd 0%, #76f286 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 65px;
-    margin-bottom: 40px;/*was 75 and 50*/
+    font-size: 55px;
+    margin-bottom: 5px;
   }
   h3{
     font-size: 25px;
@@ -807,6 +807,13 @@ nav {
     .logo {
       margin-left: 10px;
     }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-around;
+      padding-left: 0 ;
+  
+    }
     .left {
       text-align: center;
     }
@@ -830,14 +837,17 @@ nav {
     }
     .project-container {
       margin-bottom: 40px;
+      width:100px;
+      height:auto;
     }
     .project-image {
-      width: 100%;
+      width:50px;
+      height: auto;
      
     }
    .project-link .btn {
-      width: 10px !important;
-      color: red !important;
+      width: 10px;
+    
     }
     .welcome-message {
       text-align: center;
