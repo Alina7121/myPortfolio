@@ -478,7 +478,7 @@ nav {
 
 .skill {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(10px);
   animation: fadeInUp 1s forwards;
 }
 
@@ -796,7 +796,7 @@ nav {
       top: 45%;
     }
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 750px) {
    
     nav ul {
       display: none;
@@ -819,20 +819,25 @@ nav {
     .main {
       flex-direction: column;
     }
+    .about img {
+      margin-right: 0;
+    }
     .about-text {
       margin-top: 20px;
     }
     .project {
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(10px, 1fr));
     }
     .project-container {
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
     .project-image {
       width: 100%;
+     
     }
-    .btn {
-      margin-top: 10px;
+   .project-link .btn {
+      width: 10px !important;
+      color: red !important;
     }
     .welcome-message {
       text-align: center;
